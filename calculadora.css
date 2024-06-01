@@ -1,0 +1,20 @@
+.button-equal {
+    grid-column: span 2; /* Ocupa el espacio de dos columnas */
+    width: calc(100% + 10px); /* Ajusta el ancho para cubrir dos columnas más el gap */
+    height: 100%; /* Asegura que tenga la misma altura que los otros botones */
+    font-size: 24px;
+    padding: 20px;
+    background-color: #ff9500;
+    color: #fff;
+    border: none;
+    border-radius: 80px; /* Ajusta el radio del borde para que sea consistente */
+    transition: background-color 0.3s;
+}
+
+.button-equal:hover {
+    background-color: #ffa500;
+}
+
+.button-equal:active {
+    background-color: #cc7a00;
+}
